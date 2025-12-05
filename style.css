@@ -7,3 +7,35 @@ html, body {
 
 }
 
+.grid {
+     display: grid;
+    grid-template-areas: 
+    "header header"
+    "main main"
+    "footer footer";
+}
+.container {
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    
+}
+
+.container li {
+    border: 1px solid black;
+}
+
+.header {
+    display: flex;
+    background-color: #2A2A2A;
+    grid-area: header;
+    text-align: center;
+    justify-content: space-around;
+}
+.main {
+    grid-area: main;
+}
+.footer {
+    grid-area: footer;
+    text-align: center;
+}
