@@ -1,7 +1,7 @@
 html, body {
     margin: 0;
     padding: 0;
-    background-color: #e0e0e0;
+    background-color: #d3d3d3;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -17,7 +17,7 @@ html, body {
     "header"
     "main"
     "footer";
-    grid-template-rows: 22vh auto 10vh;
+    grid-template-rows: 8rem auto 10rem;
 }
 .container {
     display: flex;
@@ -27,23 +27,25 @@ html, body {
     /* margin-bottom: 18px; */
     padding: 0px;
     flex-direction: row;
-    color: #ffffff;
+    color: #dbdbdb;
     justify-content: space-evenly;
     
 }
 .container li {
-    border: 1px solid rgb(0, 0, 0);
+    border: 1px solid rgb(224, 204, 204);
+    background-color: rgb(163, 126, 126);
+    align-items: center;
+    font-family: "Pixelify Sans";
+    font-size: 18px;
     border-radius: 10px;
-    padding: 15px;
-    width: 70px;
-    height: 20px;
-
+    padding: 15px 25px;
+   
 }
 
 .header {
     display: flex;
     flex-wrap: wrap;
-    background-color: #2A2A2A;
+    background-color: rgb(139, 98, 98);
     grid-area: header;
     text-align: center;
     flex-direction: column;
@@ -68,7 +70,20 @@ p {
     height: 100px;
     
 }
+/*
+.projects1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
 
+.item {
+    border: 1px solid black;
+    margin: 10px;
+    padding: 15px;
+} 
+
+
+/*
 .projects1 {
     display: flex;
     flex-direction: row;
@@ -85,16 +100,24 @@ p {
     padding: 15px;
     border-radius: 15%;
 }
+    */
 
 .footer {
-    background-color: rgb(26, 26, 26);
+    background-color: rgb(22, 22, 22);
     margin-top: auto;
     height: 100px;
+    padding-left: 25px;
     grid-area: footer;
-    text-align: center;
+    text-align: left;
     color: #ffffff;
 }
 
+.footer p {
+    color: #ffffff;
+}
+.footer a {
+    color: #ffffff;
+}
 
 /* desktop 
 @media only screen and (max-width: 600px)
