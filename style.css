@@ -27,7 +27,7 @@ html, body {
     /* margin-bottom: 18px; */
     padding: 0px;
     flex-direction: row;
-    color: #dbdbdb;
+    color: #ffffff;
     justify-content: space-evenly;
     
 }
@@ -67,8 +67,10 @@ p {
 .main {
     grid-area: main;
     text-align: center;
-    height: 100px;
-    
+}
+
+.tempimg {
+    text-align: center;
 }
 /*
 .projects1 {
@@ -105,7 +107,6 @@ p {
 .footer {
     background-color: rgb(22, 22, 22);
     margin-top: auto;
-    height: 100px;
     padding-left: 25px;
     grid-area: footer;
     text-align: left;
