@@ -188,18 +188,16 @@ input[type=submit] {
     font-size: calc(20px + .2vw);
 }
 
-@media only screen and(min-width: 550px) and (max-width: 959px) {
+@media only screen and (min-width: 550px) and (max-width: 959px){
 
 .item {
     margin: 30px;
     width: 35vw;
 }
 
-
 .head1 {
-    font-size: 2vw;
+    font-size: 1vw;
 }
-
 }
 
 @media only screen and (min-width: 960px){
@@ -207,9 +205,9 @@ input[type=submit] {
 .grid {
     display: grid;
     grid-template-areas: 
-    "header header"
-    "main main"
-    "footer footer";
+    "header"
+    "main"
+    "footer";
 }
 .container {
     display: flex;
