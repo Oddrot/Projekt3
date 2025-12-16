@@ -192,11 +192,11 @@ input[type=submit] {
 
 .item {
     margin: 30px;
-    width: 35vw;
+    width: 50vw;
 }
 
 .head1 {
-    font-size: 1vw;
+    font-size: 3vw;
 }
 }
 
