@@ -1,7 +1,7 @@
 html, body {
     margin: 0;
     padding: 0;
-    background-color: #e4e4e4;
+    background-color: #eee9e7;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -27,13 +27,13 @@ html, body {
     /* margin-bottom: 18px; */
     padding: 0px;
     flex-direction: row;
-    color: #ffffff;
+    color: #f0e7e7;
     justify-content: space-evenly;
     
 }
 .container li {
-    border: 1px solid rgb(224, 204, 204);
-    background-color: rgb(163, 126, 126);
+    border: 1px solid rgb(241, 170, 170);
+    background-color: #c06e6e;
     align-items: center;
     font-family: "Pixelify Sans";
     font-size: 18px;
@@ -43,14 +43,14 @@ html, body {
 }
 
 .container a {
-    color: #ffffff;
+    color: #f0e7e7;
     text-decoration: none;
 }
 
 .header {
     display: flex;
     flex-wrap: wrap;
-    background-color: #8b6262;
+    background-color: #9c5252;
     grid-area: header;
     text-align: center;
     flex-direction: column;
@@ -59,7 +59,7 @@ html, body {
 }
 
 .head1 {
-    color: #ffffff;
+    color: #f0e7e7;
     font-family: "Press Start 2P", "consolas";
     font-size: 4vw;
 }
@@ -69,7 +69,7 @@ html, body {
 input[type=text], select, textarea {
   width: 70%;
   padding: 8px;
-  border: 1px solid #ccc;
+  border: 1px solid #f0e7e7;
   border-radius: 12px;
   box-sizing: border-box;
   margin-top: 20px;
@@ -83,8 +83,8 @@ textarea {
 
 
 input[type=submit] {
-  background-color: #4b1e1e;
-  color: #ffffff;
+  background-color: #4d4040;
+  color: #f0e7e7;
   font-family: "pixelify sans";
   font-size: 20px;
   padding: 18px 26px;
@@ -95,7 +95,7 @@ input[type=submit] {
 
 .pform { 
     display: block;
-    color: #4b1e1e;
+    color: #000000;
     font-family: "pixelify sans", "inconsolata";
     font-size: 25px;
     font-weight: 650;
@@ -159,9 +159,9 @@ input[type=submit] {
 }
 
 .item {
-    background-color: #4b1e1e;
+    background-color: #4d4040;
     color: #ffffff;
-    border: 1px solid rgb(53, 18, 18);
+    border: 1px solid rgb(66, 56, 56);
     margin: 30px;
     width: 70vw;
     border-radius: 20px;
@@ -218,7 +218,7 @@ input[type=submit] {
     
 .item {
     margin: 30px;
-    width: 45vw;
+    width: 40vw;
 }
 
 .head1 {
