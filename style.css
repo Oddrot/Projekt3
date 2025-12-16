@@ -50,23 +50,24 @@ html, body {
 .header {
     display: flex;
     flex-wrap: wrap;
-    background-color: rgb(139, 98, 98);
+    background-color: #8b6262;
     grid-area: header;
     text-align: center;
     flex-direction: column;
+     justify-content: space-around;
 
 }
 
 .head1 {
     color: #ffffff;
     font-family: "Press Start 2P", "consolas";
-    font-size: calc(18px + 1vw);
+    font-size: 4vw;
 }
 
 /* kontakt form */
 
 input[type=text], select, textarea {
-  width: 75%;
+  width: 70%;
   padding: 8px;
   border: 1px solid #ccc;
   border-radius: 12px;
@@ -93,6 +94,7 @@ input[type=submit] {
 }
 
 .pform { 
+    display: block;
     color: #4b1e1e;
     font-family: "pixelify sans", "inconsolata";
     font-size: 25px;
@@ -111,8 +113,17 @@ input[type=submit] {
     font-family: "pixelify sans";
     font-size: 27px;
 }
-.tempimg {
+.mig {
     text-align: center;
+}
+
+.programtext {
+    gap: 3em;
+    color: #000000;
+    text-align: center;
+    font-family: "inconsolata";
+    font-size: calc(20px + .2vw);
+    margin: 33px;
 }
 
 /*
@@ -150,8 +161,9 @@ input[type=submit] {
 .item {
     background-color: #4b1e1e;
     color: #ffffff;
-    border: 1px solid black;
+    border: 1px solid rgb(53, 18, 18);
     margin: 30px;
+    width: 70vw;
     border-radius: 20px;
     font-family: "inconsolata";
 }
@@ -176,9 +188,22 @@ input[type=submit] {
     font-size: calc(20px + .2vw);
 }
 
-/* desktop 
-@media only screen and (min-width: 960px)
+@media only screen and(min-width: 550px) and (max-width: 959px) {
 
+.item {
+    margin: 30px;
+    width: 35vw;
+}
+
+
+.head1 {
+    font-size: 2vw;
+}
+
+}
+
+@media only screen and (min-width: 960px){
+    
 .grid {
     display: grid;
     grid-template-areas: 
@@ -191,22 +216,14 @@ input[type=submit] {
     gap: 1rem;
     list-style: none;
     flex-direction: row;
-    color: #ffffff;
-    
 }
-.container li {
-    border: 1px solid rgb(0, 0, 0);
-    border-radius: 10px;
-    padding: 10px;
-    width: 65px;
-    height: 20px;
-
-} 
     
-.header {
-    display: flex;
-    background-color: #2A2A2A;
-    grid-area: header;
-    text-align: center;
-    justify-content: space-around;
-} */
+.item {
+    margin: 30px;
+    width: 45vw;
+}
+
+.head1 {
+    font-size: 2.8vw;
+}
+}
