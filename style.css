@@ -83,7 +83,7 @@ textarea {
 
 
 input[type=submit] {
-  background-color: #4d4040;
+  background-color: #c06e6e;
   color: #f0e7e7;
   font-family: "pixelify sans";
   font-size: 20px;
@@ -95,25 +95,25 @@ input[type=submit] {
 
 .pform { 
     display: block;
-    color: #000000;
+    color: #f0e7e7;
     font-family: "pixelify sans", "inconsolata";
     font-size: 25px;
     font-weight: 650;
     margin-left: 50px;
     text-align: left;
 }
+/* kontaktform slut */
 
 .main {
     grid-area: main;
     text-align: center;
 }
 
-
 .head2 {
     font-family: "pixelify sans";
     font-size: 27px;
 }
-.mig {
+.programmer {
     text-align: center;
 }
 
@@ -160,12 +160,22 @@ input[type=submit] {
 
 .item {
     background-color: #4d4040;
-    color: #ffffff;
+    color: #f0e7e7;
     border: 1px solid rgb(66, 56, 56);
     margin: 30px;
     width: 70vw;
     border-radius: 20px;
     font-family: "inconsolata";
+}
+.itemkontakt {
+    background-color: #4d4040;
+    border: 1px solid rgb(66, 56, 56);
+    margin: auto;
+    margin-top: 6vh;
+    width: 70vw;
+    padding: 10px;
+    border-radius: 20px;
+
 }
 
 .footer {
@@ -224,4 +234,5 @@ input[type=submit] {
 .head1 {
     font-size: 2.8vw;
 }
+
 }
