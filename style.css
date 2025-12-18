@@ -163,7 +163,8 @@ input[type=submit] {
     color: #f0e7e7;
     border: 1px solid rgb(66, 56, 56);
     margin: 30px;
-    width: 70vw;
+    min-width: 300px;
+    width: 75vw;
     border-radius: 20px;
     font-family: "inconsolata";
 }
@@ -202,7 +203,7 @@ input[type=submit] {
 
 .item {
     margin: 30px;
-    width: 50vw;
+    width: 55vw;
 }
 
 .head1 {
